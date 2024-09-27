@@ -1,0 +1,290 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #121212;
+    background-image: url('Pictures/background.png');
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav a, .dropdown span {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #575757}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+
+.moocs-container {
+    width: 95%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.mooc-section {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.mooc-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.certification {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.certification:hover{
+    transform: scale(1.05);
+}
+.certification a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.certification a:hover {
+    text-decoration: underline;
+}
+
+
+.left-side, .right-side {
+    flex: 1;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    margin: 1rem;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.activity {
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.activity img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 1rem;
+    background-size: cover;
+    filter: blur(7px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 1;
+}
+
+.activity:hover {
+    transform: scale(1.05);
+}
+
+.leetcode {
+    background-image: url("Pictures/1.1.png");
+}
+
+.github {
+    background-image: url("Pictures/2.1.png");
+}
+
+.moocs {
+    background-image: url("Pictures/3.1.png");
+}
+
+.extra_courses {
+    background-image: url("Pictures/4.1.png");
+}
+
+.university {
+    background-image: url("Pictures/5.1.png");
+}
+
+.kaggle {
+    background-image: url("Pictures/1.2.png");
+}
+
+.projects {
+    background-image: url("Pictures/2.2.png");
+}
+
+.daily_learning {
+    background-image: url("Pictures/3.2.png");
+}
+
+.journey {
+    background-image: url("Pictures/4.2.png");
+}
+
+.activity-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background: linear-gradient(to right, rgb(58, 68, 206) 8%, rgba(255, 255, 255, 0));
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.activity-info h3 {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.activity-info p {
+    margin-left: auto;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+}
+
+.blog-post {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-post:hover {
+    transform: scale(1.05);
+}
+
+.blog-post img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 1rem;
+    filter: blur(7px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.blog1 {
+    background-image: url("blog1.jpg");
+}
+
+.blog2 {
+    background-image: url("blog2.jpg");
+}
+
+.blog3 {
+    background-image: url("blog3.jpg");
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background: linear-gradient(to right,  rgb(90, 89, 89) 8%, rgba(255, 255, 255, 0));
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%; 
+}
+
+.blog-info h3 {
+    flex: 1;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+.blog-info p {
+    margin-left: auto;
+}
