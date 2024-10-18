@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: #000720;
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -75,7 +75,7 @@ main {
 }
 
 .mooc-section {
-    background-color: #1f1f1f;
+    background-color: #000720;
     border: 1px solid #333;
     border-radius: 8px;
     margin: 1rem 0;
@@ -89,7 +89,7 @@ main {
 }
 
 .certification {
-    background-color: #2a2a2a;
+    background-color: #000518;
     border-radius: 8px;
     margin: 0.5rem 0;
     padding: 0.5rem;
@@ -112,7 +112,7 @@ main {
 .left-side, .right-side {
     flex: 1;
     padding: 2rem;
-    background-color: #1f1f1f;
+    background-color: #000720;
     margin: 1rem;
     border-radius: 8px;
     opacity: 1;
@@ -209,7 +209,7 @@ main {
 }
 
 footer {
-    background-color: #1f1f1f;
+    background-color: #000720;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -223,7 +223,7 @@ footer {
 }
 
 .blog-post {
-    background-color: #1f1f1f;
+    background-color: #000720;
     border: 1px solid #333;
     border-radius: 8px;
     margin: 1rem;
@@ -273,7 +273,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-    background: linear-gradient(to right,  rgb(90, 89, 89) 8%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to right,  #000518 8%, #000720);
     padding: 1rem;
     border-radius: 8px;
     width: 100%; 
@@ -282,7 +282,7 @@ footer {
 .blog-info h3 {
     flex: 1;
     text-align: center;
-    color: #1f1f1f;
+    color: #ffffff;
 }
 
 .blog-info p {
